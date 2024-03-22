@@ -73,9 +73,7 @@ Response: List of all movies
 Testing
 To run the PHPUnit tests, use the following command:
 
-bash
-Copy code
-php artisan test
+
 Dependencies
 Laravel Framework
 MySQL Database
