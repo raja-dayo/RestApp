@@ -23,7 +23,7 @@ class UsersTableSeeder extends Seeder
         ];
 
         // Insert users into the database
-        foreach ($users as $user) {
+        foreach ($users as $user){
             User::create($user);
         }
     }
