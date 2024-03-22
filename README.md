@@ -34,10 +34,14 @@ Copy code
 php artisan migrate
 Serve the application:
 
+php artisan db:seed
+
 bash
 Copy code
 php artisan serve
 You can now access the API at http://localhost:8000.
+
+When making requests to your routes, include the session_token  = 4d2e9b0502e1e1be7b0c8783f82c461c7b46ac9afb7896861dd5fc1755adfc9b in the request headers:
 
 API Endpoints
 Create Movie
