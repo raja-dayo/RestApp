@@ -11,7 +11,7 @@ Clone the repository to your local machine:
 
 bash
 Copy code
-git clone https://github.com/raja-dayo/RestAPI-.git
+git clone https://github.com/raja-dayo/RestApp.git
 Install dependencies using Composer:
 
 bash
